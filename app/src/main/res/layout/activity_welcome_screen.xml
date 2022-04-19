@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeScreen"
+    android:background="@color/design_default_color_primary_dark">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/WelcomeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/welcome_to_resellhq"
+            android:textColor="#AA00FF"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/btnLogIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:backgroundTint="#AA00FF"
+            android:text="@string/sign_in"
+            android:layout_below="@+id/WelcomeText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:backgroundTint="#AA00FF"
+            android:text="@string/sign_in"
+            android:layout_below="@+id/btnLogIn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

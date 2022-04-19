@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyResellHQApp</string>
+    <string name="welcome_to_resellhq">Welcome To ResellHQ</string>
+    <string name="sign_in">Sign In</string>
 </resources>

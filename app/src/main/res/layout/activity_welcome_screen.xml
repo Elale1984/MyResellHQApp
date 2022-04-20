@@ -3,46 +3,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WelcomeScreen"
-    android:background="@color/design_default_color_primary_dark">
+    android:background="@color/app_background"
+    tools:context=".WelcomeScreen">
 
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true">
+        android:layout_centerInParent="true">
 
         <TextView
             android:id="@+id/WelcomeText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="@string/welcome_to_resellhq"
-            android:textColor="#AA00FF"
+            android:text="@string/welcome_to_resell"
+            android:textColor="#34FA08"
             android:textSize="35sp" />
 
         <Button
             android:id="@+id/btnLogIn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="100dp"
-            android:backgroundTint="#AA00FF"
-            android:text="@string/sign_in"
             android:layout_below="@+id/WelcomeText"
             android:layout_centerHorizontal="true"
+            android:layout_marginStart="100dp"
             android:layout_marginTop="50dp"
-            />
+            android:text="@string/sign_in"
+            android:textSize="22sp" />
+
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="100dp"
-            android:backgroundTint="#AA00FF"
-            android:text="@string/sign_in"
             android:layout_below="@+id/btnLogIn"
             android:layout_centerHorizontal="true"
+            android:layout_marginStart="100dp"
             android:layout_marginTop="20dp"
-            />
+            android:text="@string/sign_up"
+            android:textSize="22sp" />
     </RelativeLayout>
 
 
